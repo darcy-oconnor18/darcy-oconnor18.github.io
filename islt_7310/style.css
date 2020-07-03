@@ -1,5 +1,20 @@
-h1 {color:hotpink;}
+h1 {color:hotpink; font-size:32pt; font-family:monospace}
+
+h3 {color:skyblue; font-size: 20pt}
+
+main p {text-align: center; font-size:16pt}
+
+    ul.a {color:orange}
+    ul.b {color:rebeccapurple}
+    img {float:left;}
+section {clear:both}
+
+section
+
+p {text-align: left; font-size:16pt}
+
 footer {font-size: 8pt}
+footer p {text-align: left; font-size:8pt}
 footer a:link {color:hotpink;} 
 footer a:hover {color:orange;}
 footer a:focus {color:yellow;}
