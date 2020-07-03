@@ -1,19 +1,28 @@
-h1 {color:hotpink; font-size:32pt; font-family:monospace}
+h1 {color:hotpink; 
+    font-size:32pt; 
+    text-align: center;
+    font-family:monospace;
+    border: 10px solid hotpink;
+    border:20px dotted white;
+    background: yellow;}
+    
+body {background: lightblue}
 
-h3 {color:skyblue; font-size: 20pt}
+h3 {color:navy; font-size: 20pt}
 
 main p {text-align: center; font-size:16pt}
 
     ul.a {color:orange}
     ul.b {color:rebeccapurple}
-    img {float:left;}
+    img {float:left; padding:10px; margin:20px;}
 section {clear:both}
 
 section
 
 p {text-align: left; font-size:16pt}
 
-footer {font-size: 8pt}
+footer {font-size: 8pt;
+        border-top: 10px dotted white;}
 footer p {text-align: left; font-size:8pt}
 footer a:link {color:hotpink;} 
 footer a:hover {color:orange;}
