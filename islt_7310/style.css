@@ -1,29 +1,61 @@
-h1 {color:hotpink; 
+/* *****************************************************************************
+
+Title:  CSS Style Page
+
+Use:  CSS Style
+
+Author:  Darcy O'Connor
+
+School/Term:  University of Missouri, Summer 2020
+
+Developed: July 5, 2020
+
+Tested:  July 5, 2020; Passed on Safari and Chrome browsers.
+
+****************************************************************************** */
+
+h1 {color: #ff69b4; 
     font-size:32pt; 
     text-align: center;
     font-family:monospace;
     border: 10px solid hotpink;
     border:20px dotted white;
     background: yellow;}
+
+#resume {color:hotpink;
+        font-size:16pt;
+        text-decoration: none;}
+
+h2 {text-align: center;}
+
+h4 {color:hotpink; font-size: 16pt}
+
+p {color:white}
+#resume:hover {color:orange;}
+#resume:visited {color:greenyellow;}
+
     
-body {background: lightblue}
+body {background: lightblue; margin:15px;}
+
+main {text-align: center;}
 
 h3 {color:navy; font-size: 20pt}
 
-main p {text-align: center; font-size:16pt}
-
-    ul.a {color:orange}
-    ul.b {color:rebeccapurple}
+    ul.a {color:orange;}
+    ul.b {color:rebeccapurple;}
+    ul.c {color:navy;}
+ul.d {color:hotpink;}
     img {float:left; padding:10px; margin:20px;}
 section {clear:both}
 
-section
+blockquote {color:white;}
 
-p {text-align: left; font-size:16pt}
+p.bio {padding:10px;}
+section p {text-align: left; font-size:16pt;}
 
 footer {font-size: 8pt;
-        border-top: 10px dotted white;}
-footer p {text-align: left; font-size:8pt}
+        border-top: 10px dotted white; padding: 5px;}
+footer p {text-align: left; font-size:8pt; color:black;}
 footer a:link {color:hotpink;} 
 footer a:hover {color:orange;}
 footer a:focus {color:yellow;}
