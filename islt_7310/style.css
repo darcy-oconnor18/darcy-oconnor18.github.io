@@ -8,9 +8,9 @@ Author:  Darcy O'Connor
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 5, 2020
+Developed: July 10, 2020
 
-Tested:  July 5, 2020; Passed on Safari and Chrome browsers.
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 
 ****************************************************************************** */
 
@@ -25,6 +25,8 @@ h1 {color: #ff69b4;
 #resume {color:hotpink;
         font-size:16pt;
         text-decoration: none;}
+
+#reflection {padding: 30px; padding-top:0}
 
 h2 {text-align: center;}
 

@@ -17,7 +17,7 @@ School/Term:  University of Missouri, Summer 2020
 
 Developed: June 28, 2020
 
-Tested:  July 5, 2020; Passed on Safari and Chrome browsers.
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 
 ******************************************************************************
 
@@ -27,9 +27,23 @@ Tested:  July 5, 2020; Passed on Safari and Chrome browsers.
 
             <title>O'Connor Home Page</title>
             <link rel="stylesheet" href ="style.css">
+            <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
+
+ <nav> <ul>
+    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="#experience.html">Experience</a>
+        <ul>
+            <li> <a href=#experience1>Experience 1 </a></li>
+            <li> <a href=#experience2>Experience 2 </a></li>
+            <li> <a href=#experience3>Experience 3 </a></li>
+        </ul></li>
+     <li> <a href="reflection.html">Reflection</a></li>
+    <li> <a href="#contact.html">Contact Me</a> </li>
+</ul></nav>
 
 <header><h1>Darcy O'Connor</h1></header>
 
@@ -64,7 +78,7 @@ Tested:  July 5, 2020; Passed on Safari and Chrome browsers.
   </section>
     
     <section> 
-   <h4>Experience Overview </h4> <p>I have spent the last 8 years in the classroom at three different schools. These positions throughout age groups and in different communities have provided me with great experiences that I bring to each classroom.</p>
+   <h4 id="background">Experience Overview </h4> <p>I have spent the last 8 years in the classroom at three different schools. These positions throughout age groups and in different communities have provided me with great experiences that I bring to each classroom.</p>
 <ul class="c">
     <li>Springfield Christian Preschool – Classroom Teacher</li>
     <li>New Holland-Middletown ESD 88 – 4th Grade Teacher</li>

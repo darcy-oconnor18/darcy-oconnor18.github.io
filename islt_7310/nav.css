@@ -1,0 +1,53 @@
+/* *****************************************************************************
+
+Title:  CSS Nav Style Page
+
+Use:  CSS Style
+
+Author:  Darcy O'Connor
+
+School/Term:  University of Missouri, Summer 2020
+
+Developed: July 5, 2020
+
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
+
+****************************************************************************** */
+
+nav ul li {
+display: inline-block;
+border: 5px solid hotpink;
+text-align: center;
+background: navy;
+width: 150px;
+list-style-type: none;
+padding: 25px 0 25px 0;
+margin-top: 0px;
+margin-left: 20px;
+position: relative;
+}
+
+
+nav {text-align: center;
+    margin-top: 0px;
+   }
+
+
+nav a:link {color:#ffffff;}
+nav a:hover {color:orange;}
+nav a:visited {color:hotpink}
+nav a { font-family: monospace; font-size: 14pt}
+
+
+
+/*2 tier navigation*/
+
+nav ul {list-style: none; position: relative;}
+
+nav ul ul {display:none; position: absolute; top: 100%;}
+
+nav ul ul li {float: none; padding: 25px}
+
+nav ul li:hover>ul {display: block;}
+
+nav>ul::after {content: ""; display: block; clear:both;}
