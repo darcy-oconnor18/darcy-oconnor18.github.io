@@ -15,22 +15,23 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 ****************************************************************************** */
 
 h1 {color: #ff69b4; 
-    font-size:32pt; 
+    font-size:3em; 
     text-align: center;
     font-family:monospace;
     border: 10px solid hotpink;
+    margin: 15px;
     border:20px dotted white;
     background: yellow;}
 
 #resume {color:hotpink;
-        font-size:16pt;
+        font-size:1em;
         text-decoration: none;}
 
-#reflection {padding: 30px; padding-top:0}
+#reflection {padding: 30px; margin: 30px; padding-top: 0;}
 
 h2 {text-align: center;}
 
-h4 {color:hotpink; font-size: 16pt}
+h4 {color:hotpink; font-size: 1.5em;}
 
 p {color:white}
 #resume:hover {color:orange;}
@@ -41,7 +42,7 @@ body {background: lightblue; margin:15px;}
 
 main {text-align: center;}
 
-h3 {color:navy; font-size: 20pt}
+h3 {color:navy; font-size: 2em;}
 
     ul.a {color:orange;}
     ul.b {color:rebeccapurple;}
@@ -53,14 +54,27 @@ section {clear:both}
 blockquote {color:white;}
 
 p.bio {padding:10px;}
-section p {text-align: left; font-size:16pt;}
+section p {text-align: left; font-size:1.25em;}
 
-footer {font-size: 8pt;
+footer {font-size: 0.75em;
         border-top: 10px dotted white; padding: 5px;}
-footer p {text-align: left; font-size:8pt; color:black;}
+footer p {text-align: left; font-size:0.75em; color:black;}
 footer a:link {color:hotpink;} 
 footer a:hover {color:orange;}
 footer a:focus {color:yellow;}
 footer a:visited {color:greenyellow;}
 footer a:active {color:mediumpurple;}
-footer a {text-decoration: none; font-size: 10pt;}
+footer a {text-decoration: none; font-size: 1.25em;}
+
+@media screen and (max-width:960px) {
+    body {width:100%}
+    #socialmedia {width:30%;}
+    #contactform {width: 70%;}
+    
+   
+}
+
+@media screen and (max-width:320px) {
+    body {width:320px;}
+}
+
