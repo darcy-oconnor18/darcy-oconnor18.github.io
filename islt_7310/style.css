@@ -15,10 +15,9 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 ****************************************************************************** */
 
 h1 {color: #ff69b4; 
-    font-size:3em; 
+    font-size:32pt; 
     text-align: center;
     font-family:monospace;
-    border: 10px solid hotpink;
     margin: 15px;
     border:20px dotted white;
     background: yellow;}
@@ -31,29 +30,32 @@ h1 {color: #ff69b4;
 
 h2 {text-align: center;}
 
-h4 {color:hotpink; font-size: 1.5em;}
+h4 {color:hotpink; font-size: 1.75em;}
+
 
 p {color:white}
 #resume:hover {color:orange;}
 #resume:visited {color:greenyellow;}
 
     
-body {background: lightblue; margin:15px;}
+body {background: lightblue; margin:15px; font-size: 100%;}
 
 main {text-align: center;}
 
-h3 {color:navy; font-size: 2em;}
+h3 {color:navy; font-size: 2em; text-align: center;}
 
+    main ul {text-align: left; font-size:1.3em;}
     ul.a {color:orange;}
     ul.b {color:rebeccapurple;}
     ul.c {color:navy;}
-ul.d {color:hotpink;}
-    img {float:left; padding:10px; margin:20px;}
-section {clear:both}
+    ul.d {color:hotpink;}
+   
+img {padding:10px; margin:20px; margin-bottom: 0;}
 
-blockquote {color:white;}
 
-p.bio {padding:10px;}
+blockquote {color:white; font-size: 1.5em}
+
+p.bio {padding:10px; margin-top:0;}
 section p {text-align: left; font-size:1.25em;}
 
 footer {font-size: 0.75em;
@@ -68,15 +70,20 @@ footer a {text-decoration: none; font-size: 1.25em;}
 
 @media screen and (max-width:960px) {
     body {width:100%}
+    #intro {width:25%;}
+    #leftside {width:65%;}
    }
     
    
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:320px) {
     body {width:320px;}
-    img {float:none;}
-    p.bio {clear:both;}
    
 }
 
 
+@media screen and (max-width:640px) {
+     #intro {width:100%; float: none;}
+    #leftside {width:100%; float: none;}
+    #leftside {border-right: 0 solid !important;}
+}

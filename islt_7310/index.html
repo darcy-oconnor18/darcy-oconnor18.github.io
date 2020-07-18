@@ -29,6 +29,14 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
             <link rel="stylesheet" href ="style.css">
             <link rel="stylesheet" href="nav.css">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+        aside {float:right; padding: 5px; padding-top: 0; margin:5px; width: 25%;}
+        #leftside {float:left; padding: 5px;  margin: 5px; border-right: 5px solid hotpink; width: 65%; margin-top: 0;}
+        footer {clear:both;}
+        
+    
+    </style>
 </head>
 
 <body>
@@ -51,17 +59,19 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 
 <header><h1>Darcy O'Connor</h1></header>
 
-<main>
+
     <h3>Welcome! Thank you for visiting my professional website. This website provides my educational and professional backgrounds, resume, and teaching reflections.</h3>
      
-      <img src="images/darcy.jpg" alt="Darcy" width ="306" height="442"> 
-</main>
+    <aside id="intro">
+      <img src="images/darcy.jpg" alt="Darcy" width ="300" height="450"> 
+
 
 
     <p class="bio"> <h4>My name is Darcy O’Connor. I am currently a 5th grade English teacher in Central Illinois. I have always been passionate about education and doing whatever I can for students, but in the past few years, I have also developed a passion for sharing technology with students. I was awarded with the Illinois Computing Educators (now Illinois Digital Educators Alliance) Teacher of the Year in 2018. I have taught for 8 years – two in preschool, four in fourth grade, and two in fifth grade. I also love to read, golf, and share those passions with students as well. I currently coach junior high track and varsity girls golf. </h4> 
     
+        </aside>
 
-    <section> 
+    <main id="leftside"> 
 <ul class="d">
     <li><h4>Education Overview</h4>
         <ul class="a">
@@ -79,7 +89,7 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
         </ul>
     </li>
 </ul>
-  </section>
+  
     
     <section> 
    <h4 id="background">Experience Overview </h4> <p>I have spent the last 8 years in the classroom at three different schools. These positions throughout age groups and in different communities have provided me with great experiences that I bring to each classroom.</p>
@@ -99,6 +109,7 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 <h4>My Favorite Quote</h4>
 
 <blockquote> &ldquo;You’re braver than you believe, and stronger than you seem, and smarter than you think.&rdquo; A. A. Milne</blockquote>
+    </main>
 
 <footer> Created by Darcy O'Connor 
     <p> <a href="mailto:djo664@umsystem.edu">djo664@umsystem.edu</a> 
