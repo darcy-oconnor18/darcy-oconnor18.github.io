@@ -52,6 +52,8 @@ h3 {color:navy; font-size: 2em; text-align: center;}
    
 img {padding:10px; margin:20px; margin-bottom: 0;}
 
+footer {background-image: url(images/background.PNG); border:10px solid hotpink;}
+
 footer img {padding: 0; margin: 0;}
 
 blockquote {color:white; font-size: 1.5em}
