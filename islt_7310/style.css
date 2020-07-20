@@ -74,7 +74,15 @@ footer a {text-decoration: none; font-size: 1.25em;}
 .credit a {font-size:0.75em; text-decoration: none; color:black;}
 
 
-/*Resume Video*/
+
+
+@media screen and (max-width:960px) {
+    body {width:100%}
+    #intro {width:25%;}
+    #leftside {width:65%;}
+   }
+    
+  /*Resume Video*/
 
 
 .iframe-container{
@@ -91,15 +99,7 @@ footer a {text-decoration: none; font-size: 1.25em;}
   width: 100%;
   height: 100%;
 
-}
-
-@media screen and (max-width:960px) {
-    body {width:100%}
-    #intro {width:25%;}
-    #leftside {width:65%;}
-   }
-    
-   
+} 
 
 @media screen and (max-width:320px) {
     body {width:320px;}
