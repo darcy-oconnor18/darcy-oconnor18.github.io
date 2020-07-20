@@ -68,6 +68,25 @@ footer a:visited {color:greenyellow;}
 footer a:active {color:mediumpurple;}
 footer a {text-decoration: none; font-size: 1.25em;}
 
+/*Resume Video*/
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+    
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
 @media screen and (max-width:960px) {
     body {width:100%}
     #intro {width:25%;}
