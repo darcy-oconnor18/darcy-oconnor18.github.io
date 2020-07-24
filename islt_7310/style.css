@@ -19,7 +19,7 @@ Tested:  July 20, 2020; Passed on Safari, Firefox and Chrome browsers.
 
 
 h1 {color: #ff69b4; 
-    font-size:32pt; 
+    font-size:5vw; 
     text-align: center;
     font-family:bbSpreadKindness;
     margin: 15px;
@@ -34,10 +34,10 @@ h1 {color: #ff69b4;
 
 h2 {text-align: center;}
 
-h4 {color:hotpink; font-size: 1.75em;}
+h4 {color:hotpink; font-size: 2.5vw;}
 
 
-p {color:white}
+p {color:navy}
 #resume:hover {color:orange;}
 #resume:visited {color:greenyellow;}
 
@@ -47,40 +47,44 @@ body {background: lightblue; margin:15px; font-size: 100%; font-family:bbmamabea
 
 main {text-align: center;}
 
-h3 {color:navy; font-size: 2em; text-align: center;}
+h3 {color:hotpink; font-size: 2.5vw; text-align: center;}
 
     main ul {text-align: left; font-size:1.3em;}
-    ul.a {color:orange;}
-    ul.b {color:rebeccapurple;}
+    ul.a {color:navy;}
+    ul.b {color:navy;}
     ul.c {color:navy;}
     ul.d {color:hotpink;}
    
-img {padding:10px; margin:20px; margin-bottom: 0;}
+img {padding:10px; 
+    margin:10px; 
+    margin-bottom: 0;}
 
 footer {background-image: url(images/background.PNG); border:10px solid hotpink;}
 
-.iframe-container {padding:20px; margin:40px;}
+.iframe-container {padding:20px; margin:40px; text-align: center;}
 
 footer img {padding: 0; margin: 0;}
 
-blockquote {color:white; font-size: 1.5em}
+footer img:hover {transform: scale(2);}
+
+blockquote {color:navy; font-size: 2vw}
 
 p.bio {padding:10px; margin-top:0;}
-section p {text-align: left; font-size:1.25em;}
+section p {text-align: left; font-size:2vw;}
 
-footer {font-size: 0.75em;
+footer {font-size: 1vw;
         border-top: 10px dotted white; padding: 5px;}
-footer p {text-align: left; font-size:0.75em; color:black;}
+footer p {text-align: left; font-size:1vw; color:navy;}
 
 footer a:link {color:hotpink;} 
 footer a:hover {color:orange;}
 footer a:focus {color:yellow;}
 footer a:visited {color:greenyellow;}
 footer a:active {color:mediumpurple;}
-footer a {text-decoration: none; font-size: 1.25em;}
+footer a {text-decoration: none; font-size: 1vw;}
 
-.credit {font-size:0.55em; text-decoration: none; color:black;}
-.credit a {font-size:0.75em; text-decoration: none; color:black;}
+.credit {font-size:1vw; text-decoration: none; color:navy;}
+.credit a {font-size:1vw; text-decoration: none; color:navy;}
 
 
 
@@ -96,9 +100,10 @@ footer a {text-decoration: none; font-size: 1.25em;}
 
 .iframe-container{
   position: relative;
-  width: 100%;
+  width: 75%;
   padding-bottom: 56.25%; 
   height: 0;
+
     
 }
 .iframe-container iframe{
@@ -120,6 +125,8 @@ footer a {text-decoration: none; font-size: 1.25em;}
      #intro {width:100%; float: none;}
     #leftside {width:100%; float: none;}
     #leftside {border-right: 0 solid !important;}
+    img {width:45%;
+        height: auto;}
 }
 
 /*Print Screen*/
