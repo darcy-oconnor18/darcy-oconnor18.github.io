@@ -24,7 +24,7 @@ h1 {color: #ff69b4;
     font-family:bbSpreadKindness;
     margin: 15px;
     border:20px dotted white;
-    background: yellow;}
+    background: #fff44f;}
 
 #resume {color:hotpink;
         font-size:1em;
@@ -32,7 +32,9 @@ h1 {color: #ff69b4;
 
 #reflection {padding: 30px; margin: 30px; padding-top: 0;}
 
-h2 {text-align: center;}
+#reflection p {font-size: 2vw;}
+
+h2 {text-align: center; color:hotpink;}
 
 h4 {color:hotpink; font-size: 2.5vw;}
 

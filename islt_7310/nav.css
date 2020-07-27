@@ -51,7 +51,7 @@ nav ul {list-style: none; position: relative;}
 
 nav ul ul {display:none; position: absolute; top: 100%;}
 
-nav ul ul li {float: none; padding: 25px}
+nav ul ul li {float: none; padding: 25px; z-index: 1000;}
 
 nav ul li:hover>ul {display: block;}
 
