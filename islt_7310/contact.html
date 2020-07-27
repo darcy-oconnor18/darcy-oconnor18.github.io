@@ -67,10 +67,10 @@ Tested:  July 27, 2020; Passed on Safari and Chrome browsers.
     </aside>
     
     <main>
-        <form id="contactform" action="mailto:djo664@umsystem.edu?Subject=Professional%20Website%20Contact" method="get" enctype="text/plain" >
+        <form id="contactform" action="mailto:djo664@umsystem.edu?Subject=Professional%20Website%20Contact" target="_self" method="post" enctype="text/plain" >
     <div>
         <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name" autofocus required>
     </div>
     <div>
         <label for="lastname">Last Name</label>
@@ -84,7 +84,7 @@ Tested:  July 27, 2020; Passed on Safari and Chrome browsers.
         <label>Message</label>
         <textarea placeholder="Message"></textarea>
     </div>
-        <button>Send</button>
+        <input type="submit">
         </form>
     
     </main>
