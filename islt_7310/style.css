@@ -114,6 +114,9 @@ form label {display: contents;
 
 textarea {height:10vw; 
             width: 45vw;}
+#message {height:20vw;
+            width:45vw;}
+
 input {height: 2vw;
     width: 45vw;
     margin-left: 1em;
