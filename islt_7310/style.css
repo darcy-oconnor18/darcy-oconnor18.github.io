@@ -77,8 +77,8 @@ h5 {color:hotpink; font-size:1.85vw}
 section p {text-align: left; font-size:2vw;}
 
 footer {font-size: 1.5vw; color:navy;
-        border-top: 10px dotted white; padding: 5px;}
-footer p {text-align: left; font-size:1.5vw; color:navy;}
+        border-top: 10px dotted white; padding: 2px;}
+footer p {text-align: left; font-size:1.5vw; color:navy; padding-bottom:0; margin-bottom: 0;}
 
 
 footer a:link {color:hotpink;} 
