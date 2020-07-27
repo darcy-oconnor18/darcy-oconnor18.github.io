@@ -49,7 +49,7 @@ main {text-align: center;}
 
 h3 {color:hotpink; font-size: 2.5vw; text-align: center;}
 
-    main ul {text-align: left; font-size:1.3em;}
+    main ul {text-align: left; font-size:2.5vw}
     ul.a {color:navy;}
     ul.b {color:navy;}
     ul.c {color:navy;}
@@ -61,7 +61,7 @@ img {padding:10px;
 
 footer {background-image: url(images/background.PNG); border:10px solid hotpink;}
 
-.iframe-container {padding:20px; margin:40px; text-align: center;}
+.iframe-container {padding:20px; margin:40px; }
 
 footer img {padding: 0; margin: 0;}
 
@@ -70,11 +70,14 @@ footer img:hover {transform: scale(2);}
 blockquote {color:navy; font-size: 2vw}
 
 p.bio {padding:10px; margin-top:0;}
+
+h5 {color:hotpink; font-size:1.85vw}
 section p {text-align: left; font-size:2vw;}
 
-footer {font-size: 1vw;
+footer {font-size: 1.5vw; color:navy;
         border-top: 10px dotted white; padding: 5px;}
-footer p {text-align: left; font-size:1vw; color:navy;}
+footer p {text-align: left; font-size:1.5vw; color:navy;}
+
 
 footer a:link {color:hotpink;} 
 footer a:hover {color:orange;}
@@ -86,8 +89,34 @@ footer a {text-decoration: none; font-size: 1vw;}
 .credit {font-size:1vw; text-decoration: none; color:navy;}
 .credit a {font-size:1vw; text-decoration: none; color:navy;}
 
+/*Table*/
 
+table {border: 5px solid hotpink;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 20px;}
+th, td {border: 3px solid hotpink;
+        color:navy;}
+thead {background-color: white;}
+.center {margin-left: auto;
+        margin-right: auto;}
+tbody tr:nth-child(even) {background-color:gainsboro;}
+figcaption {display:block;
+            padding-bottom: 0}
 
+/*Form*/
+
+form label {display: contents; 
+    text-align: right !important;
+    }
+
+textarea {height:10vw; 
+            width: 45vw;}
+input {height: 2vw;
+    width: 45vw;
+    margin-left: 1em;
+    margin-bottom: .5em;}
+/*Media Query*/
 
 @media screen and (max-width:960px) {
     body {width:100%}
@@ -99,10 +128,14 @@ footer a {text-decoration: none; font-size: 1vw;}
 
 
 .iframe-container{
+
   position: relative;
-  width: 75%;
+  width: 700px;
+    max-width: 100%;
+  height:auto;
   padding-bottom: 56.25%; 
   height: 0;
+    margin: 0 auto;
 
     
 }
@@ -125,8 +158,8 @@ footer a {text-decoration: none; font-size: 1vw;}
      #intro {width:100%; float: none;}
     #leftside {width:100%; float: none;}
     #leftside {border-right: 0 solid !important;}
-    img {width:45%;
-        height: auto;}
+    th, td {display:block;}
+    thead {display:none;}
 }
 
 /*Print Screen*/
