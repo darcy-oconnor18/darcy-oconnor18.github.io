@@ -13,7 +13,7 @@ Developed: July 10, 2020
 Tested:  July 20, 2020; Passed on Safari, Firefox and Chrome browsers.
 
 ****************************************************************************** */
-@font-face { font-family: bbSpreadKindness; src: url("bbspreadkindness.ttf"); }
+@font-face { font-family: bbSpreadKindness; src: url(BBSpreadKindness.ttf); }
 
 @font-face { font-family: bbMamaBear; src: url(bbMamaBear.ttf)}
 
