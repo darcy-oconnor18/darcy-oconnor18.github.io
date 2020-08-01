@@ -18,15 +18,15 @@ Tested:  July 20, 2020; Passed on Safari, Firefox and Chrome browsers.
 @font-face { font-family: bbMamaBear; src: url(bbMamaBear.ttf)}
 
 
-h1 {color: #ff69b4; 
+h1 {color: #ac3b61; 
     font-size:5vw; 
     text-align: center;
     font-family:bbSpreadKindness;
     margin: 15px;
-    border:20px dotted white;
-    background: #fff44f;}
+    border:20px dotted #123c69;
+    background: #edc7b7;}
 
-#resume {color:hotpink;
+#resume {color:#ac3b61;
         font-size:1em;
         text-decoration: none;}
 
@@ -34,34 +34,34 @@ h1 {color: #ff69b4;
 
 #reflection p {font-size: 2vw;}
 
-h2 {text-align: center; color:hotpink;}
+h2 {text-align: center; color:#ac3b61;}
 
-h4 {color:hotpink; font-size: 2.5vw;}
+h4 {color:#ac3b61; font-size: 2.5vw;}
 
 
-p {color:navy}
-#resume:hover {color:orange;}
-#resume:visited {color:greenyellow;}
+p {color:#123c69}
+#resume:hover {color:navy;}
+#resume:visited {color:#ac3b61;}
 
     
-body {background: lightblue; margin:15px; font-size: 100%; font-family:bbmamabear; }
+body {background: #eee2dc; margin:25px; font-size: 100%; font-family:bbmamabear; padding:15px;}
 
 
 main {text-align: center;}
 
-h3 {color:hotpink; font-size: 2.5vw; text-align: center;}
+h3 {color:#ac3b61; font-size: 2.5vw; text-align: center;}
 
     main ul {text-align: left; font-size:2.5vw}
-    ul.a {color:navy;}
-    ul.b {color:navy;}
-    ul.c {color:navy;}
-    ul.d {color:hotpink;}
+    ul.a {color:#123c69;}
+    ul.b {color:#123c69;}
+    ul.c {color:#123c69;}
+    ul.d {color:#ac3b61;}
    
 img {padding:10px; 
     margin:10px; 
     margin-bottom: 0;}
 
-footer {background-image: url(images/background.PNG); border:10px solid hotpink;}
+footer {background-image: url(images/background.PNG); border:10px solid #ac3b61;}
 
 .iframe-container {padding:20px; margin:40px; }
 
@@ -69,37 +69,37 @@ footer img {padding: 0; margin: 0;}
 
 footer img:hover {transform: scale(2);}
 
-blockquote {color:navy; font-size: 2vw}
+blockquote {color:#123c69; font-size: 2vw}
 
 p.bio {padding:10px; margin-top:0;}
 
-h5 {color:hotpink; font-size:1.85vw}
+h5 {color:#ac3b61; font-size:1.85vw}
 section p {text-align: left; font-size:2vw;}
 
-footer {font-size: 1.5vw; color:navy;
-        border-top: 10px dotted white; padding: 2px;}
-footer p {text-align: left; font-size:1.5vw; color:navy; padding-bottom:0; margin-bottom: 0;}
+footer {font-size: 1.5vw; color:#123c69;
+        border-top: 10px dotted #123c69; padding: 2px;}
+footer p {text-align: left; font-size:1.5vw; color:#123c69; padding-bottom:0; margin-bottom: 0;}
 
 
-footer a:link {color:hotpink;} 
-footer a:hover {color:orange;}
-footer a:focus {color:yellow;}
-footer a:visited {color:greenyellow;}
-footer a:active {color:mediumpurple;}
+footer a:link {color:#ac3b61;} 
+footer a:hover {color:#123c69;}
+footer a:focus {color:#edc7b7;}
+footer a:visited {color:#bab2b5;}
+footer a:active {color:#123c69;}
 footer a {text-decoration: none; font-size: 1vw;}
 
-.credit {font-size:1vw; text-decoration: none; color:navy;}
-.credit a {font-size:1vw; text-decoration: none; color:navy;}
+.credit {font-size:1vw; text-decoration: none; color:#123c69;}
+.credit a {font-size:1vw; text-decoration: none; color:#123c69;}
 
 /*Table*/
 
-table {border: 5px solid hotpink;
+table {border: 5px solid #ac3b61;
         border-collapse: collapse;
         text-align: center;
         padding: 20px;}
-th, td {border: 3px solid hotpink;
-        color:navy;}
-thead {background-color: white;}
+th, td {border: 3px solid #ac3b61;
+        color:#123c69;}
+thead {background-color: #eee2dc;}
 .center {margin-left: auto;
         margin-right: auto;}
 tbody tr:nth-child(even) {background-color:gainsboro;}
@@ -165,7 +165,29 @@ input {height: 2vw;
     #leftside {border-right: 0 solid !important;}
     th, td {display:block;}
     thead {display:none;}
+    
+    .iframe-container{
+
+  position: relative;
+  width: 700px;
+    max-width: 85%;
+  height:auto;
+  padding-bottom: 56.25%; 
+  height: 0;
+    margin: 0 auto;
+
+    
 }
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 85%;
+  height: auto;
+
+} 
+}
+
 
 /*Print Screen*/
 @media print {
@@ -235,10 +257,7 @@ input {height: 2vw;
     }
     
     
-  
-    
     p {
         orphans: 3;
-        widows: 3;
+        widows: 3; }
     }
-}

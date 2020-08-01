@@ -19,9 +19,9 @@ Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 
 nav ul li {
 display: inline-block;
-border: 5px solid hotpink;
+border: 5px solid #123c69;
 text-align: center;
-background: navy;
+background: #edc7b7;
 width: 150px;
 list-style-type: none;
 padding: 25px 0 25px 0;
@@ -38,9 +38,9 @@ nav {text-align: center;
    }
 
 
-nav a:link {color:#ffffff;}
-nav a:hover {color:orange;}
-nav a:visited {color:hotpink}
+nav a:link {color:#eee2dc;}
+nav a:hover {color:#123c69;}
+nav a:visited {color:#ac3b61}
 nav a { font-family: bbmamabear; font-size: 14pt; text-decoration: none; line-height: 40px;}
 
 
@@ -65,7 +65,7 @@ label {
     line-height: 70px;
     display: none;
     width: 26px;
-    color:hotpink;
+    color:#ac3b61;
 }
 
 
