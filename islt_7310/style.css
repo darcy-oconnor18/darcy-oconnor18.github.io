@@ -90,7 +90,8 @@ footer a {text-decoration: none; font-size: 1vw;}
 
 .credit {font-size:1vw; text-decoration: none; color:#123c69;}
 .credit a {font-size:1vw; text-decoration: none; color:#123c69;}
-.credt a:link {color:#123c69}
+.credit a:link {color:#123c69}
+.credit a:visited {color:#123c69}
 
 /*Table*/
 
